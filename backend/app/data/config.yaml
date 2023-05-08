@@ -1,0 +1,97 @@
+countries:
+- AUSTRALIA
+- CANADA
+- CHINA
+- FRANCE
+- GERMANY
+- INDIA
+- ITALY
+- JAPAN
+- NETHERLANDS
+- RUSSIAN FEDERATION
+- SWITZERLAND
+- UKRAINE
+- UNITED KINGDOM
+- UNITED STATES
+normalize_para:
+  offset:
+    AUSTRALIA: 0.0
+    CANADA: 0.0
+    CHINA: 0.0
+    FRANCE: 0.0
+    GERMANY: 0.0
+    INDIA: 0.0
+    ITALY: 0.0
+    JAPAN: 0.0
+    NETHERLANDS: 0.0
+    RUSSIAN FEDERATION: 0.0
+    SWITZERLAND: 0.0
+    UKRAINE: 0.0
+    UNITED KINGDOM: 0.0
+    UNITED STATES: 0.0
+    ccpi_alchohol: 186.5
+    ccpi_all_items: 121.4000015258789
+    ccpi_clothing: 130.8000030517578
+    ccpi_communication: 97.30000305175781
+    ccpi_culture: 111.9000015258789
+    ccpi_food: 125.5
+    ccpi_housing: 110.5
+    ccpi_restaurants: 123.5999984741211
+    ccpi_transport: 98.9000015258789
+    count: 0.0
+    country_cpi: 100.08090209960938
+    fp_lad: 95.0
+    fp_lp_92: 117.0
+    fp_lp_95: 128.0
+    fp_lsd: 110.0
+    gdp_annual_growth_rate: -14.800000190734863
+    inflasion: 2.799999952316284
+    is_a_global_pandamic: 0.0
+    is_crisis_situation: 0.0
+    mean_temperature: 25.670000076293945
+    month_encoded: 0.0
+    political_stability: -0.3499999940395355
+    precipitation: 64.91999816894531
+    usd_price: 153.9499969482422
+  scale:
+    AUSTRALIA: 1.0
+    CANADA: 1.0
+    CHINA: 1.0
+    FRANCE: 1.0
+    GERMANY: 1.0
+    INDIA: 1.0
+    ITALY: 1.0
+    JAPAN: 1.0
+    NETHERLANDS: 1.0
+    RUSSIAN FEDERATION: 1.0
+    SWITZERLAND: 1.0
+    UKRAINE: 1.0
+    UNITED KINGDOM: 1.0
+    UNITED STATES: 1.0
+    ccpi_alchohol: 43.100006103515625
+    ccpi_all_items: 18.900001525878906
+    ccpi_clothing: 30.599990844726562
+    ccpi_communication: 21.899993896484375
+    ccpi_culture: 6.900001525878906
+    ccpi_food: 32.899993896484375
+    ccpi_housing: 8.199996948242188
+    ccpi_restaurants: 21.79999542236328
+    ccpi_transport: 23.099998474121094
+    count: 48442.0
+    country_cpi: 32.79139709472656
+    fp_lad: 28.0
+    fp_lp_92: 38.0
+    fp_lp_95: 41.0
+    fp_lsd: 31.0
+    gdp_annual_growth_rate: 22.799999237060547
+    inflasion: 3.3999998569488525
+    is_a_global_pandamic: 1.0
+    is_crisis_situation: 1.0
+    mean_temperature: 2.729999542236328
+    month_encoded: 0.9797464609146118
+    political_stability: 0.19999998807907104
+    precipitation: 263.510009765625
+    usd_price: 46.05000305175781
+window:
+  inp_seq_len: 12
+  out_seq_len: 2

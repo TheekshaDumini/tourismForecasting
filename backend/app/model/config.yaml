@@ -1,0 +1,45 @@
+hid_feature_count: 16
+inp_features:
+- AUSTRALIA
+- CANADA
+- CHINA
+- FRANCE
+- GERMANY
+- INDIA
+- ITALY
+- JAPAN
+- NETHERLANDS
+- RUSSIAN FEDERATION
+- SWITZERLAND
+- UKRAINE
+- UNITED KINGDOM
+- UNITED STATES
+- ccpi_alchohol
+- ccpi_all_items
+- ccpi_clothing
+- ccpi_communication
+- ccpi_culture
+- ccpi_food
+- ccpi_housing
+- ccpi_restaurants
+- ccpi_transport
+- count
+- country_cpi
+- fp_lad
+- fp_lp_92
+- fp_lp_95
+- fp_lsd
+- gdp_annual_growth_rate
+- inflasion
+- is_a_global_pandamic
+- is_crisis_situation
+- mean_temperature
+- month_encoded
+- political_stability
+- precipitation
+- usd_price
+inp_seq_len: 12
+num_layers: 1
+out_features:
+- count
+out_seq_len: 2
